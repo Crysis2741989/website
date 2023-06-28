@@ -4,10 +4,12 @@
 4.Hago un archivo.txt para poder simular que estoy trabajando en él en ese momento
 ---------------------------------------------------
 Tengo creado el espacio laboral tal cual me pide el  ejercicio, entonces sigo con los siguientes pasos
-1.como estoy trabajando en la rama custom-navbar, me paso a la rama main o master localmente con el comando: git checkout main
+1.como estoy trabajando en la rama custom-navbar, necesito guardar en algun lado los archivos en los que estoy trabajando, para eso utilizo el comando: git stash --include-untracked.Luego me paso a la rama main o master localmente con el comando: git checkout main
 2. me traigo de lo que esta en la rama main para poder borrar el archivo status.js con el comando: git pull
 3.Elimino el archivo status.js con el comando: rm status.js y verifico que el archivo se haya eliminado con el comando ls
 4.uso el comando: git add .
 5.Hago el commit: git commit -m"mensaje"
 6.Hago el push para mandar la actualizacion a la rama main: git push
+7.Vuelvo a la rama en la que estaba para poder trabajar con: git checkout custom-navbar
+8.Utilizo el comando git stash pop para volver a traer mis archivos del stage
 
