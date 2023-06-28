@@ -1,0 +1,7 @@
+1.Teniendo en cuenta que la rama front-react ya esta hecha, nos traemos dicha rama a nuestro git local, primero creando una rama que la llamaremos como el ejercicio front-react con el comando git checkout -b front-react
+2.Nos traemos el archivo React.js con el comando git pull
+3.usamos el comando git tag -a v1.0.0 -m"version del tag" , este comando lo usamos porque se sube una actualizacion importante a master, esta actualizacion nos quedaría tageada
+4.Usamos el comando git push origin v1.0.0 , en este caso creamos este tag especial para la actulizacion del homebanking
+5.Pedimos un pull request a master haciendo click en el enlace
+6.confirmamos el merge y listo. Tenemos la version subida a la rama master y tenemos el tag
+
